@@ -1,0 +1,7 @@
+[
+  { "id": 1, "flightNumber": "AV-101", "departure": "Минск",  "arrival": "Варшава", "price": 250 },
+  { "id": 2, "flightNumber": "AV-202", "departure": "Минск",  "arrival": "Берлин",  "price": 320 },
+  { "id": 3, "flightNumber": "AV-303", "departure": "Гомель", "arrival": "Москва",  "price": 180 },
+  { "id": 4, "flightNumber": "AV-404", "departure": "Брест",  "arrival": "Киев",    "price": 210 },
+  { "id": 5, "flightNumber": "AV-505", "departure": "Минск",  "arrival": "Париж",   "price": 450 }
+]
