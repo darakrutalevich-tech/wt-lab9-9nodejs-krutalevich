@@ -1,0 +1,12 @@
+{
+  "name": "wt-lab9-9nodejs-krutalevich",
+  "version": "1.0.0",
+  "description": "Node.js приложение для лабораторной WT-9. Авиакомпания.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": ["nodejs", "http", "api", "wt-lab9"],
+  "author": "Круталевич Д.В.",
+  "license": "ISC"
+}
