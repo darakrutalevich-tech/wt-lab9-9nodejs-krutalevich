@@ -8,16 +8,22 @@ const products = JSON.parse(data);
 console.log("Количество товаров: ", getProductCount(products));
 
 const server = http.createServer((req, res) => {
-    if (
-        req.method === "GET" &&
-        req.url === "/api/products"
-    ) {
+    if (req.method === "GET" && req.url === "/") {
+        res.writeHead(200, {
+            "Content-Type": "text/plain; charset=utf-8"
+        });
+        res.end("Сервер Node.js работает!");
+        return;
+    }
+
+    if (req.method === "GET" && req.url === "/api/products") {
         res.writeHead(200, {
             "Content-Type": "application/json; charset=utf-8"
         });
         res.end(JSON.stringify(products));
         return;
     }
+
     res.writeHead(404, {
         "Content-Type": "application/json; charset=utf-8"
     });
